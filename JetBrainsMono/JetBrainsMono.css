@@ -1,0 +1,7 @@
+/* JetBrains Mono */
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("https://cdn.jsdelivr.net/gh/bampudding/UIKitFonts@main/UIKit/Assets/Fonts/JetBrainsMono/JetBrainsMono[wght].woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: normal;
+}
