@@ -1,7 +1,7 @@
 /* Asta Sans */
 @font-face {
   font-family: "Asta Sans Variable";
-  src: url("https://cdn.jsdelivr.net/gh/TheTechclip/UIKitFonts@main/UIKit/Assets/Fonts/AstaSans/AstaSans[wght].woff2") format("woff2-variations");
+  src: url("https://cdn.jsdelivr.net/gh/TheTechclip/UIKit-Fonts@main/UIKit/Assets/Fonts/AstaSans/AstaSans[wght].woff2") format("woff2-variations");
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
