@@ -1,7 +1,7 @@
 /* Source Han Serif KR */
 @font-face {
   font-family: "Source Han Serif KR";
-  src: url("https://cdn.jsdelivr.net/gh/TheTechclip/UIKit-Fonts@main/UIKit/Assets/Fonts/SourceHanSerifKR/SourceHanSerifKR-VF.woff2") format("woff2-variations");
+  src: url("https://cdn.jsdelivr.net/gh/TheTechclip/UIKit-Fonts@HEAD/SourceHanSerifKR/SourceHanSerifKR-VF.woff2") format("woff2-variations");
   font-weight: 100 900;
   font-style: normal;
 }

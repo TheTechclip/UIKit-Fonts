@@ -1,7 +1,7 @@
 /* Min Icon VF */
 @font-face {
   font-family: "Min Icon VF";
-  src: url("https://cdn.jsdelivr.net/gh/TheTechclip/UIKit-Fonts@main/UIKit/Assets/Fonts/MinIcon/MinIconVF.woff2") format("woff2-variations");
+  src: url("https://cdn.jsdelivr.net/gh/TheTechclip/UIKit-Fonts@HEAD/MinIcon/MinIconVF.woff2") format("woff2-variations");
   font-weight: normal;
   font-style: normal;
 }
@@ -9,7 +9,7 @@
 /* Min Icon Brand */
 @font-face {
   font-family: "Min Icon Brand";
-  src: url("https://cdn.jsdelivr.net/gh/TheTechclip/UIKit-Fonts@main/UIKit/Assets/Fonts/MinIcon/MinIconBrand-Brand.woff2") format("woff2-variations");
+  src: url("https://cdn.jsdelivr.net/gh/TheTechclip/UIKit-Fonts@HEAD/MinIcon/MinIconBrand-Brand.woff2") format("woff2-variations");
   font-weight: normal;
   font-style: normal;
 }
