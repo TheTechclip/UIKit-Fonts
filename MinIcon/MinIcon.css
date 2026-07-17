@@ -22,19 +22,17 @@ i::after,
 blockquote::before {
   line-height: 1;
   font-style: normal;
-}
-
-.iFill {
-  &:before {
-    font-feature-settings: "ss09" on;
-  }
-}
-
-i, i:before, i:after, blockquote::before {
   font-family: var(--font-icon);
-  font-variation-settings: 'rond' 2, 'edpt' 1;
+  font-variation-settings:
+    "rond" 2,
+    "edpt" 1;
   -webkit-font-smoothing: antialiased;
 }
+
+iFill::before {
+  font-feature-settings: "ss09" on;
+}
+
 
 /* Icon Weight */
 i.iThin {
@@ -74,2866 +72,728 @@ i.iBlack {
 }
 
 /* Icon */
-i.iCircle::before {
-  content: '\E000';
-}
 
-i.iSquare::before {
-  content: '\E001';
-}
-
-i.iClose::before {
-  content: '\E020';
-}
-
-i.iCloseCircle::before {
-  content: '\E021';
-}
-
-i.iCloseSquare::before {
-  content: '\E022';
-}
-
-i.iCheck::before {
-  content: '\E024';
-}
-
-i.iCheckCircle::before {
-  content: '\E025';
-}
-
-i.iCheckSquare::before {
-  content: '\E026';
-}
-
-i.iAdd::before {
-  content: '\E028';
-}
-
-i.iAddCircle::before {
-  content: '\E029';
-}
-
-i.iAddSquare::before {
-  content: '\E02A';
-}
-
-i.iRemove::before {
-  content: '\E02C';
-}
-
-i.iRemoveCircle::before {
-  content: '\E02D';
-}
-
-i.iRemoveSquare::before {
-  content: '\E02E';
-}
-
-i.iInfo::before {
-  content: '\E030';
-}
-
-i.iInfoCircle::before {
-  content: '\E031';
-}
-
-i.iInfoSquare::before {
-  content: '\E032';
-}
-
-i.iWarning::before {
-  content: '\E034';
-}
-
-i.iWarningCircle::before {
-  content: '\E035';
-}
-
-i.iWarningSquare::before {
-  content: '\E036';
-}
-
-i.iQuestion::before {
-  content: '\E038';
-}
-
-i.iQuestionCircle::before {
-  content: '\E039';
-}
-
-i.iQuestionSquare::before {
-  content: '\E03A';
-}
-
-i.iMenu::before {
-  content: '\E03C';
-}
-
-i.iMenuCircle::before {
-  content: '\E03D';
-}
-
-i.iMenuSquare::before {
-  content: '\E03E';
-}
-
-i.iMenuLeft::before {
-  content: '\E040';
-}
-
-i.iMenuCenter::before {
-  content: '\E044';
-}
-
-i.iMenuRight::before {
-  content: '\E048';
-}
-
-i.iMoreHoriz::before {
-  content: '\E04C';
-}
-
-i.iMoreHorizCircle::before {
-  content: '\E04D';
-}
-
-i.iMoreHorizSquare::before {
-  content: '\E04E';
-}
-
-i.iMoreVert::before {
-  content: '\E050';
-}
-
-i.iMoreVertCircle::before {
-  content: '\E051';
-}
-
-i.iMoreVertSquare::before {
-  content: '\E052';
-}
-
-i.iDragHoriz::before {
-  content: '\E054';
-}
-
-i.iDragVert::before {
-  content: '\E058';
-}
-
-i.iApps::before {
-  content: '\E05C';
-}
-
-i.iPlay::before {
-  content: '\E060';
-}
-
-i.iPlayCircle::before {
-  content: '\E061';
-}
-
-i.iPlaySquare::before {
-  content: '\E062';
-}
-
-i.iStop::before {
-  content: '\E064';
-}
-
-i.iStopCircle::before {
-  content: '\E065';
-}
-
-i.iStopSquare::before {
-  content: '\E066';
-}
-
-i.iPause::before {
-  content: '\E068';
-}
-
-i.iPauseCircle::before {
-  content: '\E069';
-}
-
-i.iPauseSquare::before {
-  content: '\E06A';
-}
-
-i.iRecode::before {
-  content: '\E06C';
-}
-
-i.iRecodeCircle::before {
-  content: '\E06D';
-}
-
-i.iRecodeSquare::before {
-  content: '\E06F';
-}
-
-i.iSkipNext::before {
-  content: '\E070';
-}
-
-i.iSkipPrevious::before {
-  content: '\E074';
-}
-
-i.iFastForward::before {
-  content: '\E078';
-}
-
-i.iFastRewind::before {
-  content: '\E07C';
-}
-
-i.iCamera::before {
-  content: '\E090';
-}
-
-i.iImage::before {
-  content: '\E094';
-}
-
-i.iVideocam::before {
-  content: '\E098';
-}
-
-i.iFavorite::before {
-  content: '\E09C';
-}
-
-i.iStar::before {
-  content: '\E0A0';
-}
-
-i.iStarHalf::before {
-  content: '\E0A4';
-}
-
-i.iSun::before {
-  content: '\E0A8';
-}
-
-i.iMoon::before {
-  content: '\E0AC';
-}
-
-i.iSetting::before {
-  content: '\E0B0';
-}
-
-i.iEdit::before {
-  content: '\E0B4';
-}
-
-i.iShare::before {
-  content: '\E0B8';
-}
-
-i.iShareArrow::before {
-  content: '\E0BC';
-}
-
-i.iContentCopy::before {
-  content: '\E0C0';
-}
-
-i.iSend::before {
-  content: '\E0C4';
-}
-
-i.iMail::before {
-  content: '\E0C8';
-}
-
-i.iMailOpen::before {
-  content: '\E0CC';
-}
-
-i.iInbox::before {
-  content: '\E0D0';
-}
-
-i.iSchedule::before {
-  content: '\E0D4';
-}
-
-i.iUpdate::before {
-  content: '\E0D8';
-}
-
-i.iLink::before {
-  content: '\E0DC';
-}
-
-i.iReply::before {
-  content: '\E0E0';
-}
-
-i.iForward::before {
-  content: '\E0E4';
-}
-
-i.iCloseFullscreen::before {
-  content: '\E0E8';
-}
-
-i.iOpenInFull::before {
-  content: '\E0EC';
-}
-
-i.iOpenInNew::before {
-  content: '\E0F0';
-}
-
-i.iStore::before {
-  content: '\E0F4';
-}
-
-i.iLanguage::before {
-  content: '\E0F8';
-}
-
-i.iCall::before {
-  content: '\E0FC';
-}
-
-i.iShoppingCart::before {
-  content: '\E100';
-}
-
-i.iShoppingBag::before {
-  content: '\E104';
-}
-
-i.iLocalShipping::before {
-  content: '\E108';
-}
-
-i.iHome::before {
-  content: '\E10C';
-}
-
-i.iHome2::before {
-  content: '\E110';
-}
-
-i.iWifi::before {
-  content: '\E114';
-}
-
-i.iRssFeed::before {
-  content: '\E118';
-}
-
-i.iBluetooth::before {
-  content: '\E11C';
-}
-
-i.iMap::before {
-  content: '\E120';
-}
-
-i.iFaceId::before {
-  content: '\E124';
-}
-
-i.iFingerprint::before {
-  content: '\E128';
-}
-
-i.iLock::before {
-  content: '\E12C';
-}
-
-i.iLockOpen::before {
-  content: '\E130';
-}
-
-i.iNavigation::before {
-  content: '\E134';
-}
-
-i.iNearMe::before {
-  content: '\E138';
-}
-
-i.iNearMeOff::before {
-  content: '\E13B';
-}
-
-i.iExplore::before {
-  content: '\E13C';
-}
-
-i.iExploreOff::before {
-  content: '\E13F';
-}
-
-i.iMyLocation::before {
-  content: '\E140';
-}
-
-i.iMyLocationOff::before {
-  content: '\E143';
-}
-
-i.iVisibility::before {
-  content: '\E144';
-}
-
-i.iVisibilityOff::before {
-  content: '\E147';
-}
-
-i.iFilter::before {
-  content: '\E148';
-}
-
-i.iCategory::before {
-  content: '\E14C';
-}
-
-i.iRefresh::before {
-  content: '\E150';
-}
-
-i.iSync::before {
-  content: '\E154';
-}
-
-i.iUndo::before {
-  content: '\E158';
-}
-
-i.iRedo::before {
-  content: '\E15C';
-}
-
-i.iList::before {
-  content: '\E160';
-}
-
-i.iCard::before {
-  content: '\E164';
-}
-
-i.iPhone::before {
-  content: '\E168';
-}
-
-i.iLightBulb::before {
-  content: '\E16C';
-}
-
-i.iBolt::before {
-  content: '\E170';
-}
-
-i.iCloud::before {
-  content: '\E174';
-}
-
-i.iSnow::before {
-  content: '\E178';
-}
-
-i.iRain::before {
-  content: '\E17C';
-}
-
-i.iAir::before {
-  content: '\E180';
-}
-
-i.iArrowEndUp::before {
-  content: '\E800';
-}
-
-i.iArrowEndDown::before {
-  content: '\E801';
-}
-
-i.iArrowEndLeft::before {
-  content: '\E802';
-}
-
-i.iArrowEndRight::before {
-  content: '\E803';
-}
-
-i.iArrowStartUp::before {
-  content: '\E808';
-}
-
-i.iArrowStartDown::before {
-  content: '\E809';
-}
-
-i.iArrowStartLeft::before {
-  content: '\E80A';
-}
-
-i.iArrowStartRight::before {
-  content: '\E80B';
-}
-
-i.iArrowAlignUp::before {
-  content: '\E810';
-}
-
-i.iArrowAlignDown::before {
-  content: '\E811';
-}
-
-i.iArrowAlignLeft::before {
-  content: '\E812';
-}
-
-i.iArrowAlignRight::before {
-  content: '\E813';
-}
-
-i.iArrowAlignCenterVert::before {
-  content: '\E818';
-}
-
-i.iArrowAlignCenterHoriz::before {
-  content: '\E819';
-}
-
-i.iSwapVert::before {
-  content: '\E820';
-}
-
-i.iSwapHoriz::before {
-  content: '\E821';
-}
-
-i.iUnfoldMore::before {
-  content: '\E828';
-}
-
-i.iUnfoldLess::before {
-  content: '\E829';
-}
-
-i.iArrowInUp::before {
-  content: '\E830';
-}
-
-i.iArrowInDown::before {
-  content: '\E831';
-}
-
-i.iArrowInLeft::before {
-  content: '\E832';
-}
-
-i.iArrowInRight::before {
-  content: '\E833';
-}
-
-i.iArrowOutUp::before {
-  content: '\E838';
-}
-
-i.iArrowOutDown::before {
-  content: '\E839';
-}
-
-i.iArrowOutLeft::before {
-  content: '\E83A';
-}
-
-i.iArrowOutRight::before {
-  content: '\E83B';
-}
-
-i.iArrowUp::before {
-  content: '\E880';
-}
-
-i.iArrowDown::before {
-  content: '\E881';
-}
-
-i.iArrowLeft::before {
-  content: '\E882';
-}
-
-i.iArrowRight::before {
-  content: '\E883';
-}
-
-i.iArrowUpLeft::before {
-  content: '\E884';
-}
-
-i.iArrowUpRight::before {
-  content: '\E885';
-}
-
-i.iArrowDownLeft::before {
-  content: '\E886';
-}
-
-i.iArrowDownRight::before {
-  content: '\E887';
-}
-
-i.iArrowUpCircle::before {
-  content: '\E888';
-}
-
-i.iArrowDownCircle::before {
-  content: '\E889';
-}
-
-i.iArrowLeftCircle::before {
-  content: '\E88A';
-}
-
-i.iArrowRightCircle::before {
-  content: '\E88B';
-}
-
-i.iArrowUpLeftCircle::before {
-  content: '\E88C';
-}
-
-i.iArrowUpRightCircle::before {
-  content: '\E88D';
-}
-
-i.iArrowDownLeftCircle::before {
-  content: '\E88E';
-}
-
-i.iArrowDownRightCircle::before {
-  content: '\E88F';
-}
-
-i.iArrowUpSquare::before {
-  content: '\E890';
-}
-
-i.iArrowDownSquare::before {
-  content: '\E891';
-}
-
-i.iArrowLeftSquare::before {
-  content: '\E892';
-}
-
-i.iArrowRightSquare::before {
-  content: '\E893';
-}
-
-i.iArrowUpLeftSquare::before {
-  content: '\E894';
-}
-
-i.iArrowUpRightSquare::before {
-  content: '\E895';
-}
-
-i.iArrowDownLeftSquare::before {
-  content: '\E896';
-}
-
-i.iArrowDownRightSquare::before {
-  content: '\E897';
-}
-
-i.iArrowThickUp::before {
-  content: '\E8A0';
-}
-
-i.iArrowThickDown::before {
-  content: '\E8A1';
-}
-
-i.iArrowThickLeft::before {
-  content: '\E8A2';
-}
-
-i.iArrowThickRight::before {
-  content: '\E8A3';
-}
-
-i.iArrowThickUpLeft::before {
-  content: '\E8A4';
-}
-
-i.iArrowThickUpRight::before {
-  content: '\E8A5';
-}
-
-i.iArrowThickDownLeft::before {
-  content: '\E8A6';
-}
-
-i.iArrowThickDownRight::before {
-  content: '\E8A7';
-}
-
-i.iArrowKeyUp::before {
-  content: '\E8C0';
-}
-
-i.iArrowKeyDown::before {
-  content: '\E8C1';
-}
-
-i.iArrowKeyLeft::before {
-  content: '\E8C2';
-}
-
-i.iArrowKeyRight::before {
-  content: '\E8C3';
-}
-
-i.iArrowKeyUpCircle::before {
-  content: '\E8C8';
-}
-
-i.iArrowKeyDownCircle::before {
-  content: '\E8C9';
-}
-
-i.iArrowKeyLeftCircle::before {
-  content: '\E8CA';
-}
-
-i.iArrowKeyRightCircle::before {
-  content: '\E8CB';
-}
-
-i.iArrowKeyUpSquare::before {
-  content: '\E8D0';
-}
-
-i.iArrowKeyDownSquare::before {
-  content: '\E8D1';
-}
-
-i.iArrowKeyLeftSquare::before {
-  content: '\E8D2';
-}
-
-i.iArrowKeyRightSquare::before {
-  content: '\E8D3';
-}
-
-i.iArrowKeyDoubleUp::before {
-  content: '\E8E0';
-}
-
-i.iArrowKeyDoubleDown::before {
-  content: '\E8E1';
-}
-
-i.iArrowKeyDoubleLeft::before {
-  content: '\E8E2';
-}
-
-i.iArrowKeyDoubleRight::before {
-  content: '\E8E3';
-}
-
-i.iArrowDropUp::before {
-  content: '\E900';
-}
-
-i.iArrowDropDown::before {
-  content: '\E901';
-}
-
-i.iArrowDropLeft::before {
-  content: '\E902';
-}
-
-i.iArrowDropRight::before {
-  content: '\E903';
-}
-
-i.iArrowDropUpCircle::before {
-  content: '\E908';
-}
-
-i.iArrowDropDownCircle::before {
-  content: '\E909';
-}
-
-i.iArrowDropLeftCircle::before {
-  content: '\E90A';
-}
-
-i.iArrowDropRightCircle::before {
-  content: '\E90B';
-}
-
-i.iArrowDropUpSquare::before {
-  content: '\E910';
-}
-
-i.iArrowDropDownSquare::before {
-  content: '\E911';
-}
-
-i.iArrowDropLeftSquare::before {
-  content: '\E912';
-}
-
-i.iArrowDropRightSquare::before {
-  content: '\E913';
-}
-
-i.iFormatAlignJustify::before {
-  content: '\EA00';
-}
-
-i.iFormatAlignLeft::before {
-  content: '\EA01';
-}
-
-i.iFormatAlignCenter::before {
-  content: '\EA02';
-}
-
-i.iFormatAlignRight::before {
-  content: '\EA03';
-}
-
-i.iFormatAlignTopLeft::before {
-  content: '\EA04';
-}
-
-i.iFormatAlignTopCenter::before {
-  content: '\EA05';
-}
-
-i.iFormatAlignTopRight::before {
-  content: '\EA06';
-}
-
-i.iFormatAlignBottomLeft::before {
-  content: '\EA07';
-}
-
-i.iFormatAlignBottomCenter::before {
-  content: '\EA08';
-}
-
-i.iFormatAlignBottomRight::before {
-  content: '\EA09';
-}
-
-i.iFormatTitle::before {
-  content: '\EA0A';
-}
-
-i.iFormatBold::before {
-  content: '\EA0B';
-}
-
-i.iFormatItalic::before {
-  content: '\EA0C';
-}
-
-i.iFormatUnderlined::before {
-  content: '\EA0D';
-}
-
-i.iFormatSize::before {
-  content: '\EA0E';
-}
-
-i.iFormatStrikethrough::before {
-  content: '\EA0F';
-}
-
-i.iKeyCommand::before {
-  content: '\EA40';
-}
-
-i.iKeyBackspace::before {
-  content: '\EA41';
-}
-
-i.iKeyOption::before {
-  content: '\EA42';
-}
-
-i.iKeyTab::before {
-  content: '\EA43';
-}
-
-i.iKeyControl::before {
-  content: '\EA44';
-}
-
-i.iKeyReturn::before {
-  content: '\EA45';
-}
-
-i.iKeySpaceBar::before {
-  content: '\EA46';
-}
-
-i.iViewGrid::before {
-  content: '\EA80';
-}
-
-i.iViewList::before {
-  content: '\EA81';
-}
-
-i.iViewTable::before {
-  content: '\EA82';
-}
-
-i.iFaceAdd::before {
-  content: '\EB00';
-}
-
-i.iFaceHappy::before {
-  content: '\EB01';
-}
-
-i.iFaceSad::before {
-  content: '\EB02';
-}
-
-i.iFaceNeutral::before {
-  content: '\EB03';
-}
-
-i.iFaceSmiley::before {
-  content: '\EB04';
-}
-
-i.iFaceBad::before {
-  content: '\EB05';
-}
-
-i.iFaceGrinning::before {
-  content: '\EB06';
-}
-
-i.iFaceAngry::before {
-  content: '\EB07';
-}
-
-i.iFace2Add::before {
-  content: '\EB40';
-}
-
-i.iFace2Happy::before {
-  content: '\EB41';
-}
-
-i.iFace2Sad::before {
-  content: '\EB42';
-}
-
-i.iFace2Neutral::before {
-  content: '\EB43';
-}
-
-i.iFace2Smiley::before {
-  content: '\EB44';
-}
-
-i.iFace2Bad::before {
-  content: '\EB45';
-}
-
-i.iFace2Grinning::before {
-  content: '\EB46';
-}
-
-i.iFace2Angry::before {
-  content: '\EB47';
-}
-
-i.iHandThumbUp::before {
-  content: '\EB80';
-}
-
-i.iHandThumbDown::before {
-  content: '\EB81';
-}
-
-i.iCurrencySterling::before {
-  content: '\EC00';
-}
-
-i.iCurrencySterlingCircle::before {
-  content: '\EC01';
-}
-
-i.iCurrencySterlingSquare::before {
-  content: '\EC02';
-}
-
-i.iCurrencyDollar::before {
-  content: '\EC04';
-}
-
-i.iCurrencyDollarCircle::before {
-  content: '\EC05';
-}
-
-i.iCurrencyDollarSquare::before {
-  content: '\EC06';
-}
-
-i.iCurrencyYen::before {
-  content: '\EC08';
-}
-
-i.iCurrencyYenCircle::before {
-  content: '\EC09';
-}
-
-i.iCurrencyYenSquare::before {
-  content: '\EC0A';
-}
-
-i.iCurrencyWon::before {
-  content: '\EC0C';
-}
-
-i.iCurrencyWonCircle::before {
-  content: '\EC0D';
-}
-
-i.iCurrencyWonSquare::before {
-  content: '\EC0E';
-}
-
-i.iCurrencyEuro::before {
-  content: '\EC10';
-}
-
-i.iCurrencyEuroCircle::before {
-  content: '\EC11';
-}
-
-i.iCurrencyEuroSquare::before {
-  content: '\EC12';
-}
-
-i.iCurrencyBitcoin::before {
-  content: '\EC14';
-}
-
-i.iCurrencyBitcoinCircle::before {
-  content: '\EC15';
-}
-
-i.iCurrencyBitcoinSquare::before {
-  content: '\EC16';
-}
-
-i.iCurrencyFranc::before {
-  content: '\EC18';
-}
-
-i.iCurrencyFrancCircle::before {
-  content: '\EC19';
-}
-
-i.iCurrencyFrancSquare::before {
-  content: '\EC1A';
-}
-
-i.iCurrencyRuble::before {
-  content: '\EC1C';
-}
-
-i.iCurrencyRubleCircle::before {
-  content: '\EC1D';
-}
-
-i.iCurrencyRubleSquare::before {
-  content: '\EC1E';
-}
-
-i.iCurrencyLira::before {
-  content: '\EC20';
-}
-
-i.iCurrencyLiraCircle::before {
-  content: '\EC21';
-}
-
-i.iCurrencyLiraSquare::before {
-  content: '\EC22';
-}
-
-i.iCurrencyRupee::before {
-  content: '\EC24';
-}
-
-i.iCurrencyRupeeCircle::before {
-  content: '\EC25';
-}
-
-i.iCurrencyRupeeSquare::before {
-  content: '\EC26';
-}
-
-i.iLetterAUpper::before {
-  content: '\ED00';
-}
-
-i.iLetterAUpperCircle::before {
-  content: '\ED01';
-}
-
-i.iLetterAUpperSquare::before {
-  content: '\ED02';
-}
-
-i.iLetterBUpper::before {
-  content: '\ED04';
-}
-
-i.iLetterBUpperCircle::before {
-  content: '\ED05';
-}
-
-i.iLetterBUpperSquare::before {
-  content: '\ED06';
-}
-
-i.iLetterCUpper::before {
-  content: '\ED08';
-}
-
-i.iLetterCUpperCircle::before {
-  content: '\ED09';
-}
-
-i.iLetterCUpperSquare::before {
-  content: '\ED0A';
-}
-
-i.iLetterDUpper::before {
-  content: '\ED0C';
-}
-
-i.iLetterDUpperCircle::before {
-  content: '\ED0D';
-}
-
-i.iLetterDUpperSquare::before {
-  content: '\ED0E';
-}
-
-i.iLetterEUpper::before {
-  content: '\ED10';
-}
-
-i.iLetterEUpperCircle::before {
-  content: '\ED11';
-}
-
-i.iLetterEUpperSquare::before {
-  content: '\ED12';
-}
-
-i.iLetterFUpper::before {
-  content: '\ED14';
-}
-
-i.iLetterFUpperCircle::before {
-  content: '\ED15';
-}
-
-i.iLetterFUpperSquare::before {
-  content: '\ED16';
-}
-
-i.iLetterGUpper::before {
-  content: '\ED18';
-}
-
-i.iLetterGUpperCircle::before {
-  content: '\ED19';
-}
-
-i.iLetterGUpperSquare::before {
-  content: '\ED1A';
-}
-
-i.iLetterHUpper::before {
-  content: '\ED1C';
-}
-
-i.iLetterHUpperCircle::before {
-  content: '\ED1D';
-}
-
-i.iLetterHUpperSquare::before {
-  content: '\ED1E';
-}
-
-i.iLetterIUpper::before {
-  content: '\ED20';
-}
-
-i.iLetterIUpperCircle::before {
-  content: '\ED21';
-}
-
-i.iLetterIUpperSquare::before {
-  content: '\ED22';
-}
-
-i.iLetterJUpper::before {
-  content: '\ED24';
-}
-
-i.iLetterJUpperCircle::before {
-  content: '\ED25';
-}
-
-i.iLetterJUpperSquare::before {
-  content: '\ED26';
-}
-
-i.iLetterKUpper::before {
-  content: '\ED28';
-}
-
-i.iLetterKUpperCircle::before {
-  content: '\ED29';
-}
-
-i.iLetterKUpperSquare::before {
-  content: '\ED2A';
-}
-
-i.iLetterLUpper::before {
-  content: '\ED2C';
-}
-
-i.iLetterLUpperCircle::before {
-  content: '\ED2D';
-}
-
-i.iLetterLUpperSquare::before {
-  content: '\ED2E';
-}
-
-i.iLetterMUpper::before {
-  content: '\ED30';
-}
-
-i.iLetterMUpperCircle::before {
-  content: '\ED31';
-}
-
-i.iLetterMUpperSquare::before {
-  content: '\ED32';
-}
-
-i.iLetterNUpper::before {
-  content: '\ED34';
-}
-
-i.iLetterNUpperCircle::before {
-  content: '\ED35';
-}
-
-i.iLetterNUpperSquare::before {
-  content: '\ED36';
-}
-
-i.iLetterOUpper::before {
-  content: '\ED38';
-}
-
-i.iLetterOUpperCircle::before {
-  content: '\ED39';
-}
-
-i.iLetterOUpperSquare::before {
-  content: '\ED3A';
-}
-
-i.iLetterPUpper::before {
-  content: '\ED3C';
-}
-
-i.iLetterPUpperCircle::before {
-  content: '\ED3D';
-}
-
-i.iLetterPUpperSquare::before {
-  content: '\ED3E';
-}
-
-i.iLetterQUpper::before {
-  content: '\ED40';
-}
-
-i.iLetterQUpperCircle::before {
-  content: '\ED41';
-}
-
-i.iLetterQUpperSquare::before {
-  content: '\ED42';
-}
-
-i.iLetterRUpper::before {
-  content: '\ED44';
-}
-
-i.iLetterRUpperCircle::before {
-  content: '\ED45';
-}
-
-i.iLetterRUpperSquare::before {
-  content: '\ED46';
-}
-
-i.iLetterSUpper::before {
-  content: '\ED48';
-}
-
-i.iLetterSUpperCircle::before {
-  content: '\ED49';
-}
-
-i.iLetterSUpperSquare::before {
-  content: '\ED4A';
-}
-
-i.iLetterTUpper::before {
-  content: '\ED4C';
-}
-
-i.iLetterTUpperCircle::before {
-  content: '\ED4D';
-}
-
-i.iLetterTUpperSquare::before {
-  content: '\ED4E';
-}
-
-i.iLetterUUpper::before {
-  content: '\ED50';
-}
-
-i.iLetterUUpperCircle::before {
-  content: '\ED51';
-}
-
-i.iLetterUUpperSquare::before {
-  content: '\ED52';
-}
-
-i.iLetterVUpper::before {
-  content: '\ED54';
-}
-
-i.iLetterVUpperCircle::before {
-  content: '\ED55';
-}
-
-i.iLetterVUpperSquare::before {
-  content: '\ED56';
-}
-
-i.iLetterWUpper::before {
-  content: '\ED58';
-}
-
-i.iLetterWUpperCircle::before {
-  content: '\ED59';
-}
-
-i.iLetterWUpperSquare::before {
-  content: '\ED5A';
-}
-
-i.iLetterXUpper::before {
-  content: '\ED5C';
-}
-
-i.iLetterXUpperCircle::before {
-  content: '\ED5D';
-}
-
-i.iLetterXUpperSquare::before {
-  content: '\ED5E';
-}
-
-i.iLetterYUpper::before {
-  content: '\ED60';
-}
-
-i.iLetterYUpperCircle::before {
-  content: '\ED61';
-}
-
-i.iLetterYUpperSquare::before {
-  content: '\ED62';
-}
-
-i.iLetterZUpper::before {
-  content: '\ED64';
-}
-
-i.iLetterZUpperCircle::before {
-  content: '\ED65';
-}
-
-i.iLetterZUpperSquare::before {
-  content: '\ED66';
-}
-
-i.iLetterALower::before {
-  content: '\ED68';
-}
-
-i.iLetterALowerCircle::before {
-  content: '\ED69';
-}
-
-i.iLetterALowerSquare::before {
-  content: '\ED6A';
-}
-
-i.iLetterBLower::before {
-  content: '\ED6C';
-}
-
-i.iLetterBLowerCircle::before {
-  content: '\ED6D';
-}
-
-i.iLetterBLowerSquare::before {
-  content: '\ED6E';
-}
-
-i.iLetterCLower::before {
-  content: '\ED70';
-}
-
-i.iLetterCLowerCircle::before {
-  content: '\ED71';
-}
-
-i.iLetterCLowerSquare::before {
-  content: '\ED72';
-}
-
-i.iLetterDLower::before {
-  content: '\ED74';
-}
-
-i.iLetterDLowerCircle::before {
-  content: '\ED75';
-}
-
-i.iLetterDLowerSquare::before {
-  content: '\ED76';
-}
-
-i.iLetterELower::before {
-  content: '\ED78';
-}
-
-i.iLetterELowerCircle::before {
-  content: '\ED79';
-}
-
-i.iLetterELowerSquare::before {
-  content: '\ED7A';
-}
-
-i.iLetterFLower::before {
-  content: '\ED7C';
-}
-
-i.iLetterFLowerCircle::before {
-  content: '\ED7D';
-}
-
-i.iLetterFLowerSquare::before {
-  content: '\ED7E';
-}
-
-i.iLetterGLower::before {
-  content: '\ED80';
-}
-
-i.iLetterGLowerCircle::before {
-  content: '\ED81';
-}
-
-i.iLetterGLowerSquare::before {
-  content: '\ED82';
-}
-
-i.iLetterHLower::before {
-  content: '\ED84';
-}
-
-i.iLetterHLowerCircle::before {
-  content: '\ED85';
-}
-
-i.iLetterHLowerSquare::before {
-  content: '\ED86';
-}
-
-i.iLetterILower::before {
-  content: '\ED88';
-}
-
-i.iLetterILowerCircle::before {
-  content: '\ED89';
-}
-
-i.iLetterILowerSquare::before {
-  content: '\ED8A';
-}
-
-i.iLetterJLower::before {
-  content: '\ED8C';
-}
-
-i.iLetterJLowerCircle::before {
-  content: '\ED8D';
-}
-
-i.iLetterJLowerSquare::before {
-  content: '\ED8E';
-}
-
-i.iLetterKLower::before {
-  content: '\ED90';
-}
-
-i.iLetterKLowerCircle::before {
-  content: '\ED91';
-}
-
-i.iLetterKLowerSquare::before {
-  content: '\ED92';
-}
-
-i.iLetterLLower::before {
-  content: '\ED94';
-}
-
-i.iLetterLLowerCircle::before {
-  content: '\ED95';
-}
-
-i.iLetterLLowerSquare::before {
-  content: '\ED96';
-}
-
-i.iLetterMLower::before {
-  content: '\ED98';
-}
-
-i.iLetterMLowerCircle::before {
-  content: '\ED99';
-}
-
-i.iLetterMLowerSquare::before {
-  content: '\ED9A';
-}
-
-i.iLetterNLower::before {
-  content: '\ED9C';
-}
-
-i.iLetterNLowerCircle::before {
-  content: '\ED9D';
-}
-
-i.iLetterNLowerSquare::before {
-  content: '\ED9E';
-}
-
-i.iLetterOLower::before {
-  content: '\EDA0';
-}
-
-i.iLetterOLowerCircle::before {
-  content: '\EDA1';
-}
-
-i.iLetterOLowerSquare::before {
-  content: '\EDA2';
-}
-
-i.iLetterPLower::before {
-  content: '\EDA4';
-}
-
-i.iLetterPLowerCircle::before {
-  content: '\EDA5';
-}
-
-i.iLetterPLowerSquare::before {
-  content: '\EDA6';
-}
-
-i.iLetterQLower::before {
-  content: '\EDA8';
-}
-
-i.iLetterQLowerCircle::before {
-  content: '\EDA9';
-}
-
-i.iLetterQLowerSquare::before {
-  content: '\EDAA';
-}
-
-i.iLetterRLower::before {
-  content: '\EDAC';
-}
-
-i.iLetterRLowerCircle::before {
-  content: '\EDAD';
-}
-
-i.iLetterRLowerSquare::before {
-  content: '\EDAE';
-}
-
-i.iLetterSLower::before {
-  content: '\EDB0';
-}
-
-i.iLetterSLowerCircle::before {
-  content: '\EDB1';
-}
-
-i.iLetterSLowerSquare::before {
-  content: '\EDB2';
-}
-
-i.iLetterTLower::before {
-  content: '\EDB4';
-}
-
-i.iLetterTLowerCircle::before {
-  content: '\EDB5';
-}
-
-i.iLetterTLowerSquare::before {
-  content: '\EDB6';
-}
-
-i.iLetterULower::before {
-  content: '\EDB8';
-}
-
-i.iLetterULowerCircle::before {
-  content: '\EDB9';
-}
-
-i.iLetterULowerSquare::before {
-  content: '\EDBA';
-}
-
-i.iLetterVLower::before {
-  content: '\EDBC';
-}
-
-i.iLetterVLowerCircle::before {
-  content: '\EDBD';
-}
-
-i.iLetterVLowerSquare::before {
-  content: '\EDBE';
-}
-
-i.iLetterWLower::before {
-  content: '\EDC0';
-}
-
-i.iLetterWLowerCircle::before {
-  content: '\EDC1';
-}
-
-i.iLetterWLowerSquare::before {
-  content: '\EDC2';
-}
-
-i.iLetterXLower::before {
-  content: '\EDC4';
-}
-
-i.iLetterXLowerCircle::before {
-  content: '\EDC5';
-}
-
-i.iLetterXLowerSquare::before {
-  content: '\EDC6';
-}
-
-i.iLetterYLower::before {
-  content: '\EDC8';
-}
-
-i.iLetterYLowerCircle::before {
-  content: '\EDC9';
-}
-
-i.iLetterYLowerSquare::before {
-  content: '\EDCA';
-}
-
-i.iLetterZLower::before {
-  content: '\EDCC';
-}
-
-i.iLetterZLowerCircle::before {
-  content: '\EDCD';
-}
-
-i.iLetterZLowerSquare::before {
-  content: '\EDCE';
-}
-
-i.iNumberOne::before {
-  content: '\EDD0';
-}
-
-i.iNumberOneCircle::before {
-  content: '\EDD1';
-}
-
-i.iNumberOneSquare::before {
-  content: '\EDD2';
-}
-
-i.iNumberTwo::before {
-  content: '\EDD4';
-}
-
-i.iNumberTwoCircle::before {
-  content: '\EDD5';
-}
-
-i.iNumberTwoSquare::before {
-  content: '\EDD6';
-}
-
-i.iNumberThree::before {
-  content: '\EDD8';
-}
-
-i.iNumberThreeCircle::before {
-  content: '\EDD9';
-}
-
-i.iNumberThreeSquare::before {
-  content: '\EDDA';
-}
-
-i.iNumberFour::before {
-  content: '\EDDC';
-}
-
-i.iNumberFourCircle::before {
-  content: '\EDDD';
-}
-
-i.iNumberFourSquare::before {
-  content: '\EDDE';
-}
-
-i.iNumberFive::before {
-  content: '\EDE0';
-}
-
-i.iNumberFiveCircle::before {
-  content: '\EDE1';
-}
-
-i.iNumberFiveSquare::before {
-  content: '\EDE2';
-}
-
-i.iNumberSix::before {
-  content: '\EDE4';
-}
-
-i.iNumberSixCircle::before {
-  content: '\EDE5';
-}
-
-i.iNumberSixSquare::before {
-  content: '\EDE6';
-}
-
-i.iNumberSeven::before {
-  content: '\EDE8';
-}
-
-i.iNumberSevenCircle::before {
-  content: '\EDE9';
-}
-
-i.iNumberSevenSquare::before {
-  content: '\EDEA';
-}
-
-i.iNumberEight::before {
-  content: '\EDEC';
-}
-
-i.iNumberEightCircle::before {
-  content: '\EDED';
-}
-
-i.iNumberEightSquare::before {
-  content: '\EDEE';
-}
-
-i.iNumberNine::before {
-  content: '\EDF0';
-}
-
-i.iNumberNineCircle::before {
-  content: '\EDF1';
-}
-
-i.iNumberNineSquare::before {
-  content: '\EDF2';
-}
-
-i.iNumberZero::before {
-  content: '\EDF4';
-}
-
-i.iNumberZeroCircle::before {
-  content: '\EDF5';
-}
-
-i.iNumberZeroSquare::before {
-  content: '\EDF6';
-}
-
-i.iSearch::before {
-  content: '\EE00';
-}
-
-i.iSearchClose::before {
-  content: '\EE02';
-}
-
-i.iSearchCheck::before {
-  content: '\EE03';
-}
-
-i.iSearchAdd::before {
-  content: '\EE04';
-}
-
-i.iSearchRemove::before {
-  content: '\EE05';
-}
-
-i.iSearchNote::before {
-  content: '\EE06';
-}
-
-i.iSearchMore::before {
-  content: '\EE07';
-}
-
-i.iDate::before {
-  content: '\EE20';
-}
-
-i.iDateClose::before {
-  content: '\EE22';
-}
-
-i.iDateCheck::before {
-  content: '\EE23';
-}
-
-i.iDateAdd::before {
-  content: '\EE24';
-}
-
-i.iDateRemove::before {
-  content: '\EE25';
-}
-
-i.iDateNote::before {
-  content: '\EE26';
-}
-
-i.iDateMore::before {
-  content: '\EE27';
-}
-
-i.iDateToday::before {
-  content: '\EE28';
-}
-
-i.iDateRange::before {
-  content: '\EE29';
-}
-
-i.iDatePlay::before {
-  content: '\EE2A';
-}
-
-i.iDateStop::before {
-  content: '\EE2B';
-}
-
-i.iDatePause::before {
-  content: '\EE2C';
-}
-
-i.iDateInfo::before {
-  content: '\EE2D';
-}
-
-i.iDateWarning::before {
-  content: '\EE2E';
-}
-
-i.iDateQuestion::before {
-  content: '\EE2F';
-}
-
-i.iDelete::before {
-  content: '\EE40';
-}
-
-i.iDeleteClose::before {
-  content: '\EE42';
-}
-
-i.iDeleteCheck::before {
-  content: '\EE43';
-}
-
-i.iDeleteAdd::before {
-  content: '\EE44';
-}
-
-i.iDeleteRemove::before {
-  content: '\EE45';
-}
-
-i.iDeleteInfo::before {
-  content: '\EE4D';
-}
-
-i.iDeleteWarning::before {
-  content: '\EE4E';
-}
-
-i.iDeleteQuestion::before {
-  content: '\EE4F';
-}
-
-i.iTimer::before {
-  content: '\EE60';
-}
-
-i.iTimerOff::before {
-  content: '\EE61';
-}
-
-i.iTimerClose::before {
-  content: '\EE62';
-}
-
-i.iTimerCheck::before {
-  content: '\EE63';
-}
-
-i.iTimerAdd::before {
-  content: '\EE64';
-}
-
-i.iTimerRemove::before {
-  content: '\EE65';
-}
-
-i.iTimerMore::before {
-  content: '\EE67';
-}
-
-i.iTimerPlay::before {
-  content: '\EE6A';
-}
-
-i.iTimerStop::before {
-  content: '\EE6B';
-}
-
-i.iTimerPause::before {
-  content: '\EE6C';
-}
-
-i.iTimerInfo::before {
-  content: '\EE6D';
-}
-
-i.iTimerWarning::before {
-  content: '\EE6E';
-}
-
-i.iTimerQuestion::before {
-  content: '\EE6F';
-}
-
-i.iChat2::before {
-  content: '\EE80';
-}
-
-i.iChat2Close::before {
-  content: '\EE82';
-}
-
-i.iChat2Check::before {
-  content: '\EE83';
-}
-
-i.iChat2Add::before {
-  content: '\EE84';
-}
-
-i.iChat2Remove::before {
-  content: '\EE85';
-}
-
-i.iChat2Note::before {
-  content: '\EE86';
-}
-
-i.iChat2More::before {
-  content: '\EE87';
-}
-
-i.iChat2Play::before {
-  content: '\EE8A';
-}
-
-i.iChat2Stop::before {
-  content: '\EE8B';
-}
-
-i.iChat2Pause::before {
-  content: '\EE8C';
-}
-
-i.iChat2Info::before {
-  content: '\EE8D';
-}
-
-i.iChat2Warning::before {
-  content: '\EE8E';
-}
-
-i.iChat2Question::before {
-  content: '\EE8F';
-}
-
-i.iShield::before {
-  content: '\EEA0';
-}
-
-i.iShieldOff::before {
-  content: '\EEA1';
-}
-
-i.iShieldClose::before {
-  content: '\EEA2';
-}
-
-i.iShieldCheck::before {
-  content: '\EEA3';
-}
-
-i.iShieldAdd::before {
-  content: '\EEA4';
-}
-
-i.iShieldRemove::before {
-  content: '\EEA5';
-}
-
-i.iShieldNote::before {
-  content: '\EEA6';
-}
-
-i.iShieldMore::before {
-  content: '\EEA7';
-}
-
-i.iShieldPlay::before {
-  content: '\EEAA';
-}
-
-i.iShieldStop::before {
-  content: '\EEAB';
-}
-
-i.iShieldPause::before {
-  content: '\EEAC';
-}
-
-i.iShieldInfo::before {
-  content: '\EEAD';
-}
-
-i.iShieldWarning::before {
-  content: '\EEAE';
-}
-
-i.iShieldQuestion::before {
-  content: '\EEAF';
-}
-
-i.iMemo::before {
-  content: '\EEC0';
-}
-
-i.iMemoClose::before {
-  content: '\EEC2';
-}
-
-i.iMemoCheck::before {
-  content: '\EEC3';
-}
-
-i.iMemoAdd::before {
-  content: '\EEC4';
-}
-
-i.iMemoRemove::before {
-  content: '\EEC5';
-}
-
-i.iMemoNote::before {
-  content: '\EEC6';
-}
-
-i.iMemoMore::before {
-  content: '\EEC7';
-}
-
-i.iMemoPlay::before {
-  content: '\EECA';
-}
-
-i.iMemoStop::before {
-  content: '\EECB';
-}
-
-i.iMemoPause::before {
-  content: '\EECC';
-}
-
-i.iMemoInfo::before {
-  content: '\EECD';
-}
-
-i.iMemoWarning::before {
-  content: '\EECE';
-}
-
-i.iMemoQuestion::before {
-  content: '\EECF';
-}
-
-i.iFolder::before {
-  content: '\EEE0';
-}
-
-i.iFolderClose::before {
-  content: '\EEE2';
-}
-
-i.iFolderCheck::before {
-  content: '\EEE3';
-}
-
-i.iFolderAdd::before {
-  content: '\EEE4';
-}
-
-i.iFolderRemove::before {
-  content: '\EEE5';
-}
-
-i.iFolderNote::before {
-  content: '\EEE6';
-}
-
-i.iFolderMore::before {
-  content: '\EEE7';
-}
-
-i.iFolderPlay::before {
-  content: '\EEEA';
-}
-
-i.iFolderStop::before {
-  content: '\EEEB';
-}
-
-i.iFolderPause::before {
-  content: '\EEEC';
-}
-
-i.iFolderInfo::before {
-  content: '\EEED';
-}
-
-i.iFolderWarning::before {
-  content: '\EEEE';
-}
-
-i.iFolderQuestion::before {
-  content: '\EEEF';
-}
-
-i.iCoupon::before {
-  content: '\EF00';
-}
-
-i.iCouponClose::before {
-  content: '\EF02';
-}
-
-i.iCouponCheck::before {
-  content: '\EF03';
-}
-
-i.iCouponAdd::before {
-  content: '\EF04';
-}
-
-i.iCouponRemove::before {
-  content: '\EF05';
-}
-
-i.iCouponNote::before {
-  content: '\EF06';
-}
-
-i.iCouponMore::before {
-  content: '\EF07';
-}
-
-i.iCouponPlay::before {
-  content: '\EF0A';
-}
-
-i.iCouponStop::before {
-  content: '\EF0B';
-}
-
-i.iCouponPause::before {
-  content: '\EF0C';
-}
-
-i.iCouponInfo::before {
-  content: '\EF0D';
-}
-
-i.iCouponWarning::before {
-  content: '\EF0E';
-}
-
-i.iCouponQuestion::before {
-  content: '\EF0F';
-}
-
-i.iPerson::before {
-  content: '\EF20';
-}
-
-i.iPersonClose::before {
-  content: '\EF22';
-}
-
-i.iPersonCheck::before {
-  content: '\EF23';
-}
-
-i.iPersonAdd::before {
-  content: '\EF24';
-}
-
-i.iPersonRemove::before {
-  content: '\EF25';
-}
-
-i.iPersonCircle::before {
-  content: '\EF28';
-}
-
-i.iPersonSquare::before {
-  content: '\EF29';
-}
-
-i.iNotifications::before {
-  content: '\EF40';
-}
-
-i.iNotificationsOff::before {
-  content: '\EF41';
-}
-
-i.iNotificationsClose::before {
-  content: '\EF42';
-}
-
-i.iNotificationsCheck::before {
-  content: '\EF43';
-}
-
-i.iNotificationsAdd::before {
-  content: '\EF44';
-}
-
-i.iNotificationsRemove::before {
-  content: '\EF45';
-}
-
-i.iNotificationsPlay::before {
-  content: '\EF4A';
-}
-
-i.iNotificationsStop::before {
-  content: '\EF4B';
-}
-
-i.iNotificationsPause::before {
-  content: '\EF4C';
-}
-
-i.iNotificationsInfo::before {
-  content: '\EF4D';
-}
-
-i.iNotificationsWarning::before {
-  content: '\EF4E';
-}
-
-i.iNotificationsQuestion::before {
-  content: '\EF4F';
-}
-
-i.iAlarm::before {
-  content: '\EF60';
-}
-
-i.iAlarmOff::before {
-  content: '\EF61';
-}
-
-i.iAlarmClose::before {
-  content: '\EF62';
-}
-
-i.iAlarmCheck::before {
-  content: '\EF63';
-}
-
-i.iAlarmAdd::before {
-  content: '\EF64';
-}
-
-i.iAlarmRemove::before {
-  content: '\EF65';
-}
-
-i.iAlarmMore::before {
-  content: '\EF67';
-}
-
-i.iAlarmPlay::before {
-  content: '\EF6A';
-}
-
-i.iAlarmStop::before {
-  content: '\EF6B';
-}
-
-i.iAlarmPause::before {
-  content: '\EF6C';
-}
-
-i.iAlarmInfo::before {
-  content: '\EF6D';
-}
-
-i.iAlarmWarning::before {
-  content: '\EF6E';
-}
-
-i.iAlarmQuestion::before {
-  content: '\EF6F';
-}
-
-i.iChat::before {
-  content: '\EF80';
-}
-
-i.iChatClose::before {
-  content: '\EF82';
-}
-
-i.iChatCheck::before {
-  content: '\EF83';
-}
-
-i.iChatAdd::before {
-  content: '\EF84';
-}
-
-i.iChatRemove::before {
-  content: '\EF85';
-}
-
-i.iChatNote::before {
-  content: '\EF86';
-}
-
-i.iChatMore::before {
-  content: '\EF87';
-}
-
-i.iChatPlay::before {
-  content: '\EF88';
-}
-
-i.iChatStop::before {
-  content: '\EF8B';
-}
-
-i.iChatPause::before {
-  content: '\EF8C';
-}
-
-i.iChatInfo::before {
-  content: '\EF8D';
-}
-
-i.iChatWarning::before {
-  content: '\EF8E';
-}
-
-i.iChatQuestion::before {
-  content: '\EF8F';
-}
-
-i.iLocation::before {
-  content: '\EFA0';
-}
-
-i.iLocationOff::before {
-  content: '\EFA1';
-}
-
-i.iLocationClose::before {
-  content: '\EFA2';
-}
-
-i.iLocationCheck::before {
-  content: '\EFA3';
-}
-
-i.iLocationAdd::before {
-  content: '\EFA4';
-}
-
-i.iLocationRemove::before {
-  content: '\EFA5';
-}
-
-i.iLocationMore::before {
-  content: '\EFA7';
-}
-
-i.iLocationPlay::before {
-  content: '\EFAA';
-}
-
-i.iLocationStop::before {
-  content: '\EFAB';
-}
-
-i.iLocationPause::before {
-  content: '\EFAC';
-}
-
-i.iLocationInfo::before {
-  content: '\EFAD';
-}
-
-i.iLocationWarning::before {
-  content: '\EFAE';
-}
-
-i.iLocationQuestion::before {
-  content: '\EFAF';
-}
-
-i.iInventory::before {
-  content: '\EFC0';
-}
-
-i.iInventoryClose::before {
-  content: '\EFC2';
-}
-
-i.iInventoryCheck::before {
-  content: '\EFC3';
-}
-
-i.iInventoryAdd::before {
-  content: '\EFC4';
-}
-
-i.iInventoryRemove::before {
-  content: '\EFC5';
-}
-
-i.iInventoryNote::before {
-  content: '\EFC6';
-}
-
-i.iInventoryMore::before {
-  content: '\EFC7';
-}
-
-i.iInventoryPlay::before {
-  content: '\EFCA';
-}
-
-i.iInventoryStop::before {
-  content: '\EFCB';
-}
-
-i.iInventoryPause::before {
-  content: '\EFCC';
-}
-
-i.iInventoryInfo::before {
-  content: '\EFCD';
-}
-
-i.iInventoryWarning::before {
-  content: '\EFCE';
-}
-
-i.iInventoryQuestion::before {
-  content: '\EFCF';
-}
-
-i.iFile::before {
-  content: '\EFE0';
-}
-
-i.iFileClose::before {
-  content: '\EFE2';
-}
-
-i.iFileCheck::before {
-  content: '\EFE3';
-}
-
-i.iFileAdd::before {
-  content: '\EFE4';
-}
-
-i.iFileRemove::before {
-  content: '\EFE5';
-}
-
-i.iFileNote::before {
-  content: '\EFE6';
-}
-
-i.iFileMore::before {
-  content: '\EFE7';
-}
-
-i.iFilePlay::before {
-  content: '\EFEA';
-}
-
-i.iFileStop::before {
-  content: '\EFEB';
-}
-
-i.iFilePause::before {
-  content: '\EFEC';
-}
-
-i.iFileInfo::before {
-  content: '\EFED';
-}
-
-i.iFileWarning::before {
-  content: '\EFEE';
-}
-
-i.iFileQuestion::before {
-  content: '\EFEF';
-}
-
-i.iStamp::before {
-  content: '\F000';
-}
-
-i.iStampClose::before {
-  content: '\F002';
-}
-
-i.iStampCheck::before {
-  content: '\F003';
-}
-
-i.iStampAdd::before {
-  content: '\F004';
-}
-
-i.iStampRemove::before {
-  content: '\F005';
-}
-
-i.iStampNote::before {
-  content: '\F006';
-}
-
-i.iStampMore::before {
-  content: '\F007';
-}
-
-i.iStampPlay::before {
-  content: '\F00A';
-}
-
-i.iStampStop::before {
-  content: '\F00B';
-}
-
-i.iStampPause::before {
-  content: '\F00C';
-}
-
-i.iStampInfo::before {
-  content: '\F00D';
-}
-
-i.iStampWarning::before {
-  content: '\F00E';
-}
-
-i.iStampQuestion::before {
-  content: '\F00F';
-}
-
-i.iBookmark::before {
-  content: '\F020';
-}
-
-i.iBookmarkClose::before {
-  content: '\F022';
-}
-
-i.iBookmarkCheck::before {
-  content: '\F023';
-}
-
-i.iBookmarkAdd::before {
-  content: '\F024';
-}
-
-i.iBookmarkRemove::before {
-  content: '\F025';
-}
-
-i.iBookmarkNote::before {
-  content: '\F026';
-}
-
-i.iBookmarkMore::before {
-  content: '\F027';
-}
-
-i.iBookmarkPlay::before {
-  content: '\F02A';
-}
-
-i.iBookmarkStop::before {
-  content: '\F02B';
-}
-
-i.iBookmarkPause::before {
-  content: '\F02C';
-}
-
-i.iBookmarkInfo::before {
-  content: '\F02D';
-}
-
-i.iBookmarkWarning::before {
-  content: '\F02E';
-}
-
-i.iBookmarkQuestion::before {
-  content: '\F02F';
-}
-
-i.iBrandPlaystore::before {
-  content: '\F8E0';
-}
-
-i.iBrandAppstore::before {
-  content: '\F8E1';
-}
-
-i.iBrandSlack::before {
-  content: '\F8E2';
-}
-
-i.iBrandSnapchat::before {
-  content: '\F8E3';
-}
-
-i.iBrandMessenger::before {
-  content: '\F8E4';
-}
-
-i.iBrandAmazon::before {
-  content: '\F8E5';
-}
-
-i.iBrandBehance::before {
-  content: '\F8E6';
-}
-
-i.iBrandAndroid::before {
-  content: '\F8E7';
-}
-
-i.iBrandMicrosoft::before {
-  content: '\F8E8';
-}
-
-i.iBrandDiscord::before {
-  content: '\F8E9';
-}
-
-i.iBrandSpotify::before {
-  content: '\F8EA';
-}
-
-i.iBrandReddit::before {
-  content: '\F8EB';
-}
-
-i.iBrandMeta::before {
-  content: '\F8EC';
-}
-
-i.iBrandFigma::before {
-  content: '\F8ED';
-}
-
-i.iBrandTwitch::before {
-  content: '\F8EE';
-}
-
-i.iBrandDribbble::before {
-  content: '\F8EF';
-}
-
-i.iBrandTiktok::before {
-  content: '\F8F0';
-}
-
-i.iBrandTumblr::before {
-  content: '\F8F1';
-}
-
-i.iBrandSkype::before {
-  content: '\F8F2';
-}
-
-i.iBrandMedium::before {
-  content: '\F8F3';
-}
-
-i.iBrandGithub::before {
-  content: '\F8F4';
-}
-
-i.iBrandYoutube::before {
-  content: '\F8F5';
-}
-
-i.iBrandPinterest::before {
-  content: '\F8F6';
-}
-
-i.iBrandLinkedin::before {
-  content: '\F8F7';
-}
-
-i.iBrandNotion::before {
-  content: '\F8F8';
-}
-
-i.iBrandInstagram::before {
-  content: '\F8F9';
-}
-
-i.iBrandTwitter::before {
-  content: '\F8FA';
-}
-
-i.iBrandGoogle::before {
-  content: '\F8FB';
-}
-
-i.iBrandFacebook::before {
-  content: '\F8FC';
-}
-
-i.iBrandNaver::before {
-  content: '\F8FD';
-}
-
-i.iBrandKakao::before {
-  content: '\F8FE';
-}
-
-i.iBrandApple::before {
-  content: '\F8FF';
+$icons: (
+  "Circle": "\E000",
+  "Square": "\E001",
+  "Close": "\E020",
+  "CloseCircle": "\E021",
+  "CloseSquare": "\E022",
+  "Check": "\E024",
+  "CheckCircle": "\E025",
+  "CheckSquare": "\E026",
+  "Add": "\E028",
+  "AddCircle": "\E029",
+  "AddSquare": "\E02A",
+  "Remove": "\E02C",
+  "RemoveCircle": "\E02D",
+  "RemoveSquare": "\E02E",
+  "Info": "\E030",
+  "InfoCircle": "\E031",
+  "InfoSquare": "\E032",
+  "Warning": "\E034",
+  "WarningCircle": "\E035",
+  "WarningSquare": "\E036",
+  "Question": "\E038",
+  "QuestionCircle": "\E039",
+  "QuestionSquare": "\E03A",
+  "Menu": "\E03C",
+  "MenuCircle": "\E03D",
+  "MenuSquare": "\E03E",
+  "MenuLeft": "\E040",
+  "MenuCenter": "\E044",
+  "MenuRight": "\E048",
+  "MoreHoriz": "\E04C",
+  "MoreHorizCircle": "\E04D",
+  "MoreHorizSquare": "\E04E",
+  "MoreVert": "\E050",
+  "MoreVertCircle": "\E051",
+  "MoreVertSquare": "\E052",
+  "DragHoriz": "\E054",
+  "DragVert": "\E058",
+  "Apps": "\E05C",
+  "Play": "\E060",
+  "PlayCircle": "\E061",
+  "PlaySquare": "\E062",
+  "Stop": "\E064",
+  "StopCircle": "\E065",
+  "StopSquare": "\E066",
+  "Pause": "\E068",
+  "PauseCircle": "\E069",
+  "PauseSquare": "\E06A",
+  "Recode": "\E06C",
+  "RecodeCircle": "\E06D",
+  "RecodeSquare": "\E06F",
+  "SkipNext": "\E070",
+  "SkipPrevious": "\E074",
+  "FastForward": "\E078",
+  "FastRewind": "\E07C",
+  "Camera": "\E090",
+  "Image": "\E094",
+  "Videocam": "\E098",
+  "Favorite": "\E09C",
+  "Star": "\E0A0",
+  "StarHalf": "\E0A4",
+  "Sun": "\E0A8",
+  "Moon": "\E0AC",
+  "Setting": "\E0B0",
+  "Edit": "\E0B4",
+  "Share": "\E0B8",
+  "ShareArrow": "\E0BC",
+  "ContentCopy": "\E0C0",
+  "Send": "\E0C4",
+  "Mail": "\E0C8",
+  "MailOpen": "\E0CC",
+  "Inbox": "\E0D0",
+  "Schedule": "\E0D4",
+  "Update": "\E0D8",
+  "Link": "\E0DC",
+  "Reply": "\E0E0",
+  "Forward": "\E0E4",
+  "CloseFullscreen": "\E0E8",
+  "OpenInFull": "\E0EC",
+  "OpenInNew": "\E0F0",
+  "Store": "\E0F4",
+  "Language": "\E0F8",
+  "Call": "\E0FC",
+  "ShoppingCart": "\E100",
+  "ShoppingBag": "\E104",
+  "LocalShipping": "\E108",
+  "Home": "\E10C",
+  "Home2": "\E110",
+  "Wifi": "\E114",
+  "RssFeed": "\E118",
+  "Bluetooth": "\E11C",
+  "Map": "\E120",
+  "FaceId": "\E124",
+  "Fingerprint": "\E128",
+  "Lock": "\E12C",
+  "LockOpen": "\E130",
+  "Navigation": "\E134",
+  "NearMe": "\E138",
+  "NearMeOff": "\E13B",
+  "Explore": "\E13C",
+  "ExploreOff": "\E13F",
+  "MyLocation": "\E140",
+  "MyLocationOff": "\E143",
+  "Visibility": "\E144",
+  "VisibilityOff": "\E147",
+  "Filter": "\E148",
+  "Category": "\E14C",
+  "Refresh": "\E150",
+  "Sync": "\E154",
+  "Undo": "\E158",
+  "Redo": "\E15C",
+  "List": "\E160",
+  "Card": "\E164",
+  "Phone": "\E168",
+  "LightBulb": "\E16C",
+  "Bolt": "\E170",
+  "Cloud": "\E174",
+  "Snow": "\E178",
+  "Rain": "\E17C",
+  "Air": "\E180",
+  "ArrowEndUp": "\E800",
+  "ArrowEndDown": "\E801",
+  "ArrowEndLeft": "\E802",
+  "ArrowEndRight": "\E803",
+  "ArrowStartUp": "\E808",
+  "ArrowStartDown": "\E809",
+  "ArrowStartLeft": "\E80A",
+  "ArrowStartRight": "\E80B",
+  "ArrowAlignUp": "\E810",
+  "ArrowAlignDown": "\E811",
+  "ArrowAlignLeft": "\E812",
+  "ArrowAlignRight": "\E813",
+  "ArrowAlignCenterVert": "\E818",
+  "ArrowAlignCenterHoriz": "\E819",
+  "SwapVert": "\E820",
+  "SwapHoriz": "\E821",
+  "UnfoldMore": "\E828",
+  "UnfoldLess": "\E829",
+  "ArrowInUp": "\E830",
+  "ArrowInDown": "\E831",
+  "ArrowInLeft": "\E832",
+  "ArrowInRight": "\E833",
+  "ArrowOutUp": "\E838",
+  "ArrowOutDown": "\E839",
+  "ArrowOutLeft": "\E83A",
+  "ArrowOutRight": "\E83B",
+  "ArrowUp": "\E880",
+  "ArrowDown": "\E881",
+  "ArrowLeft": "\E882",
+  "ArrowRight": "\E883",
+  "ArrowUpLeft": "\E884",
+  "ArrowUpRight": "\E885",
+  "ArrowDownLeft": "\E886",
+  "ArrowDownRight": "\E887",
+  "ArrowUpCircle": "\E888",
+  "ArrowDownCircle": "\E889",
+  "ArrowLeftCircle": "\E88A",
+  "ArrowRightCircle": "\E88B",
+  "ArrowUpLeftCircle": "\E88C",
+  "ArrowUpRightCircle": "\E88D",
+  "ArrowDownLeftCircle": "\E88E",
+  "ArrowDownRightCircle": "\E88F",
+  "ArrowUpSquare": "\E890",
+  "ArrowDownSquare": "\E891",
+  "ArrowLeftSquare": "\E892",
+  "ArrowRightSquare": "\E893",
+  "ArrowUpLeftSquare": "\E894",
+  "ArrowUpRightSquare": "\E895",
+  "ArrowDownLeftSquare": "\E896",
+  "ArrowDownRightSquare": "\E897",
+  "ArrowThickUp": "\E8A0",
+  "ArrowThickDown": "\E8A1",
+  "ArrowThickLeft": "\E8A2",
+  "ArrowThickRight": "\E8A3",
+  "ArrowThickUpLeft": "\E8A4",
+  "ArrowThickUpRight": "\E8A5",
+  "ArrowThickDownLeft": "\E8A6",
+  "ArrowThickDownRight": "\E8A7",
+  "ArrowKeyUp": "\E8C0",
+  "ArrowKeyDown": "\E8C1",
+  "ArrowKeyLeft": "\E8C2",
+  "ArrowKeyRight": "\E8C3",
+  "ArrowKeyUpCircle": "\E8C8",
+  "ArrowKeyDownCircle": "\E8C9",
+  "ArrowKeyLeftCircle": "\E8CA",
+  "ArrowKeyRightCircle": "\E8CB",
+  "ArrowKeyUpSquare": "\E8D0",
+  "ArrowKeyDownSquare": "\E8D1",
+  "ArrowKeyLeftSquare": "\E8D2",
+  "ArrowKeyRightSquare": "\E8D3",
+  "ArrowKeyDoubleUp": "\E8E0",
+  "ArrowKeyDoubleDown": "\E8E1",
+  "ArrowKeyDoubleLeft": "\E8E2",
+  "ArrowKeyDoubleRight": "\E8E3",
+  "ArrowDropUp": "\E900",
+  "ArrowDropDown": "\E901",
+  "ArrowDropLeft": "\E902",
+  "ArrowDropRight": "\E903",
+  "ArrowDropUpCircle": "\E908",
+  "ArrowDropDownCircle": "\E909",
+  "ArrowDropLeftCircle": "\E90A",
+  "ArrowDropRightCircle": "\E90B",
+  "ArrowDropUpSquare": "\E910",
+  "ArrowDropDownSquare": "\E911",
+  "ArrowDropLeftSquare": "\E912",
+  "ArrowDropRightSquare": "\E913",
+  "FormatAlignJustify": "\EA00",
+  "FormatAlignLeft": "\EA01",
+  "FormatAlignCenter": "\EA02",
+  "FormatAlignRight": "\EA03",
+  "FormatAlignTopLeft": "\EA04",
+  "FormatAlignTopCenter": "\EA05",
+  "FormatAlignTopRight": "\EA06",
+  "FormatAlignBottomLeft": "\EA07",
+  "FormatAlignBottomCenter": "\EA08",
+  "FormatAlignBottomRight": "\EA09",
+  "FormatTitle": "\EA0A",
+  "FormatBold": "\EA0B",
+  "FormatItalic": "\EA0C",
+  "FormatUnderlined": "\EA0D",
+  "FormatSize": "\EA0E",
+  "FormatStrikethrough": "\EA0F",
+  "KeyCommand": "\EA40",
+  "KeyBackspace": "\EA41",
+  "KeyOption": "\EA42",
+  "KeyTab": "\EA43",
+  "KeyControl": "\EA44",
+  "KeyReturn": "\EA45",
+  "KeySpaceBar": "\EA46",
+  "ViewGrid": "\EA80",
+  "ViewList": "\EA81",
+  "ViewTable": "\EA82",
+  "FaceAdd": "\EB00",
+  "FaceHappy": "\EB01",
+  "FaceSad": "\EB02",
+  "FaceNeutral": "\EB03",
+  "FaceSmiley": "\EB04",
+  "FaceBad": "\EB05",
+  "FaceGrinning": "\EB06",
+  "FaceAngry": "\EB07",
+  "Face2Add": "\EB40",
+  "Face2Happy": "\EB41",
+  "Face2Sad": "\EB42",
+  "Face2Neutral": "\EB43",
+  "Face2Smiley": "\EB44",
+  "Face2Bad": "\EB45",
+  "Face2Grinning": "\EB46",
+  "Face2Angry": "\EB47",
+  "HandThumbUp": "\EB80",
+  "HandThumbDown": "\EB81",
+  "CurrencySterling": "\EC00",
+  "CurrencySterlingCircle": "\EC01",
+  "CurrencySterlingSquare": "\EC02",
+  "CurrencyDollar": "\EC04",
+  "CurrencyDollarCircle": "\EC05",
+  "CurrencyDollarSquare": "\EC06",
+  "CurrencyYen": "\EC08",
+  "CurrencyYenCircle": "\EC09",
+  "CurrencyYenSquare": "\EC0A",
+  "CurrencyWon": "\EC0C",
+  "CurrencyWonCircle": "\EC0D",
+  "CurrencyWonSquare": "\EC0E",
+  "CurrencyEuro": "\EC10",
+  "CurrencyEuroCircle": "\EC11",
+  "CurrencyEuroSquare": "\EC12",
+  "CurrencyBitcoin": "\EC14",
+  "CurrencyBitcoinCircle": "\EC15",
+  "CurrencyBitcoinSquare": "\EC16",
+  "CurrencyFranc": "\EC18",
+  "CurrencyFrancCircle": "\EC19",
+  "CurrencyFrancSquare": "\EC1A",
+  "CurrencyRuble": "\EC1C",
+  "CurrencyRubleCircle": "\EC1D",
+  "CurrencyRubleSquare": "\EC1E",
+  "CurrencyLira": "\EC20",
+  "CurrencyLiraCircle": "\EC21",
+  "CurrencyLiraSquare": "\EC22",
+  "CurrencyRupee": "\EC24",
+  "CurrencyRupeeCircle": "\EC25",
+  "CurrencyRupeeSquare": "\EC26",
+  "LetterAUpper": "\ED00",
+  "LetterAUpperCircle": "\ED01",
+  "LetterAUpperSquare": "\ED02",
+  "LetterBUpper": "\ED04",
+  "LetterBUpperCircle": "\ED05",
+  "LetterBUpperSquare": "\ED06",
+  "LetterCUpper": "\ED08",
+  "LetterCUpperCircle": "\ED09",
+  "LetterCUpperSquare": "\ED0A",
+  "LetterDUpper": "\ED0C",
+  "LetterDUpperCircle": "\ED0D",
+  "LetterDUpperSquare": "\ED0E",
+  "LetterEUpper": "\ED10",
+  "LetterEUpperCircle": "\ED11",
+  "LetterEUpperSquare": "\ED12",
+  "LetterFUpper": "\ED14",
+  "LetterFUpperCircle": "\ED15",
+  "LetterFUpperSquare": "\ED16",
+  "LetterGUpper": "\ED18",
+  "LetterGUpperCircle": "\ED19",
+  "LetterGUpperSquare": "\ED1A",
+  "LetterHUpper": "\ED1C",
+  "LetterHUpperCircle": "\ED1D",
+  "LetterHUpperSquare": "\ED1E",
+  "LetterIUpper": "\ED20",
+  "LetterIUpperCircle": "\ED21",
+  "LetterIUpperSquare": "\ED22",
+  "LetterJUpper": "\ED24",
+  "LetterJUpperCircle": "\ED25",
+  "LetterJUpperSquare": "\ED26",
+  "LetterKUpper": "\ED28",
+  "LetterKUpperCircle": "\ED29",
+  "LetterKUpperSquare": "\ED2A",
+  "LetterLUpper": "\ED2C",
+  "LetterLUpperCircle": "\ED2D",
+  "LetterLUpperSquare": "\ED2E",
+  "LetterMUpper": "\ED30",
+  "LetterMUpperCircle": "\ED31",
+  "LetterMUpperSquare": "\ED32",
+  "LetterNUpper": "\ED34",
+  "LetterNUpperCircle": "\ED35",
+  "LetterNUpperSquare": "\ED36",
+  "LetterOUpper": "\ED38",
+  "LetterOUpperCircle": "\ED39",
+  "LetterOUpperSquare": "\ED3A",
+  "LetterPUpper": "\ED3C",
+  "LetterPUpperCircle": "\ED3D",
+  "LetterPUpperSquare": "\ED3E",
+  "LetterQUpper": "\ED40",
+  "LetterQUpperCircle": "\ED41",
+  "LetterQUpperSquare": "\ED42",
+  "LetterRUpper": "\ED44",
+  "LetterRUpperCircle": "\ED45",
+  "LetterRUpperSquare": "\ED46",
+  "LetterSUpper": "\ED48",
+  "LetterSUpperCircle": "\ED49",
+  "LetterSUpperSquare": "\ED4A",
+  "LetterTUpper": "\ED4C",
+  "LetterTUpperCircle": "\ED4D",
+  "LetterTUpperSquare": "\ED4E",
+  "LetterUUpper": "\ED50",
+  "LetterUUpperCircle": "\ED51",
+  "LetterUUpperSquare": "\ED52",
+  "LetterVUpper": "\ED54",
+  "LetterVUpperCircle": "\ED55",
+  "LetterVUpperSquare": "\ED56",
+  "LetterWUpper": "\ED58",
+  "LetterWUpperCircle": "\ED59",
+  "LetterWUpperSquare": "\ED5A",
+  "LetterXUpper": "\ED5C",
+  "LetterXUpperCircle": "\ED5D",
+  "LetterXUpperSquare": "\ED5E",
+  "LetterYUpper": "\ED60",
+  "LetterYUpperCircle": "\ED61",
+  "LetterYUpperSquare": "\ED62",
+  "LetterZUpper": "\ED64",
+  "LetterZUpperCircle": "\ED65",
+  "LetterZUpperSquare": "\ED66",
+  "LetterALower": "\ED68",
+  "LetterALowerCircle": "\ED69",
+  "LetterALowerSquare": "\ED6A",
+  "LetterBLower": "\ED6C",
+  "LetterBLowerCircle": "\ED6D",
+  "LetterBLowerSquare": "\ED6E",
+  "LetterCLower": "\ED70",
+  "LetterCLowerCircle": "\ED71",
+  "LetterCLowerSquare": "\ED72",
+  "LetterDLower": "\ED74",
+  "LetterDLowerCircle": "\ED75",
+  "LetterDLowerSquare": "\ED76",
+  "LetterELower": "\ED78",
+  "LetterELowerCircle": "\ED79",
+  "LetterELowerSquare": "\ED7A",
+  "LetterFLower": "\ED7C",
+  "LetterFLowerCircle": "\ED7D",
+  "LetterFLowerSquare": "\ED7E",
+  "LetterGLower": "\ED80",
+  "LetterGLowerCircle": "\ED81",
+  "LetterGLowerSquare": "\ED82",
+  "LetterHLower": "\ED84",
+  "LetterHLowerCircle": "\ED85",
+  "LetterHLowerSquare": "\ED86",
+  "LetterILower": "\ED88",
+  "LetterILowerCircle": "\ED89",
+  "LetterILowerSquare": "\ED8A",
+  "LetterJLower": "\ED8C",
+  "LetterJLowerCircle": "\ED8D",
+  "LetterJLowerSquare": "\ED8E",
+  "LetterKLower": "\ED90",
+  "LetterKLowerCircle": "\ED91",
+  "LetterKLowerSquare": "\ED92",
+  "LetterLLower": "\ED94",
+  "LetterLLowerCircle": "\ED95",
+  "LetterLLowerSquare": "\ED96",
+  "LetterMLower": "\ED98",
+  "LetterMLowerCircle": "\ED99",
+  "LetterMLowerSquare": "\ED9A",
+  "LetterNLower": "\ED9C",
+  "LetterNLowerCircle": "\ED9D",
+  "LetterNLowerSquare": "\ED9E",
+  "LetterOLower": "\EDA0",
+  "LetterOLowerCircle": "\EDA1",
+  "LetterOLowerSquare": "\EDA2",
+  "LetterPLower": "\EDA4",
+  "LetterPLowerCircle": "\EDA5",
+  "LetterPLowerSquare": "\EDA6",
+  "LetterQLower": "\EDA8",
+  "LetterQLowerCircle": "\EDA9",
+  "LetterQLowerSquare": "\EDAA",
+  "LetterRLower": "\EDAC",
+  "LetterRLowerCircle": "\EDAD",
+  "LetterRLowerSquare": "\EDAE",
+  "LetterSLower": "\EDB0",
+  "LetterSLowerCircle": "\EDB1",
+  "LetterSLowerSquare": "\EDB2",
+  "LetterTLower": "\EDB4",
+  "LetterTLowerCircle": "\EDB5",
+  "LetterTLowerSquare": "\EDB6",
+  "LetterULower": "\EDB8",
+  "LetterULowerCircle": "\EDB9",
+  "LetterULowerSquare": "\EDBA",
+  "LetterVLower": "\EDBC",
+  "LetterVLowerCircle": "\EDBD",
+  "LetterVLowerSquare": "\EDBE",
+  "LetterWLower": "\EDC0",
+  "LetterWLowerCircle": "\EDC1",
+  "LetterWLowerSquare": "\EDC2",
+  "LetterXLower": "\EDC4",
+  "LetterXLowerCircle": "\EDC5",
+  "LetterXLowerSquare": "\EDC6",
+  "LetterYLower": "\EDC8",
+  "LetterYLowerCircle": "\EDC9",
+  "LetterYLowerSquare": "\EDCA",
+  "LetterZLower": "\EDCC",
+  "LetterZLowerCircle": "\EDCD",
+  "LetterZLowerSquare": "\EDCE",
+  "NumberOne": "\EDD0",
+  "NumberOneCircle": "\EDD1",
+  "NumberOneSquare": "\EDD2",
+  "NumberTwo": "\EDD4",
+  "NumberTwoCircle": "\EDD5",
+  "NumberTwoSquare": "\EDD6",
+  "NumberThree": "\EDD8",
+  "NumberThreeCircle": "\EDD9",
+  "NumberThreeSquare": "\EDDA",
+  "NumberFour": "\EDDC",
+  "NumberFourCircle": "\EDDD",
+  "NumberFourSquare": "\EDDE",
+  "NumberFive": "\EDE0",
+  "NumberFiveCircle": "\EDE1",
+  "NumberFiveSquare": "\EDE2",
+  "NumberSix": "\EDE4",
+  "NumberSixCircle": "\EDE5",
+  "NumberSixSquare": "\EDE6",
+  "NumberSeven": "\EDE8",
+  "NumberSevenCircle": "\EDE9",
+  "NumberSevenSquare": "\EDEA",
+  "NumberEight": "\EDEC",
+  "NumberEightCircle": "\EDED",
+  "NumberEightSquare": "\EDEE",
+  "NumberNine": "\EDF0",
+  "NumberNineCircle": "\EDF1",
+  "NumberNineSquare": "\EDF2",
+  "NumberZero": "\EDF4",
+  "NumberZeroCircle": "\EDF5",
+  "NumberZeroSquare": "\EDF6",
+  "Search": "\EE00",
+  "SearchClose": "\EE02",
+  "SearchCheck": "\EE03",
+  "SearchAdd": "\EE04",
+  "SearchRemove": "\EE05",
+  "SearchNote": "\EE06",
+  "SearchMore": "\EE07",
+  "Date": "\EE20",
+  "DateClose": "\EE22",
+  "DateCheck": "\EE23",
+  "DateAdd": "\EE24",
+  "DateRemove": "\EE25",
+  "DateNote": "\EE26",
+  "DateMore": "\EE27",
+  "DateToday": "\EE28",
+  "DateRange": "\EE29",
+  "DatePlay": "\EE2A",
+  "DateStop": "\EE2B",
+  "DatePause": "\EE2C",
+  "DateInfo": "\EE2D",
+  "DateWarning": "\EE2E",
+  "DateQuestion": "\EE2F",
+  "Delete": "\EE40",
+  "DeleteClose": "\EE42",
+  "DeleteCheck": "\EE43",
+  "DeleteAdd": "\EE44",
+  "DeleteRemove": "\EE45",
+  "DeleteInfo": "\EE4D",
+  "DeleteWarning": "\EE4E",
+  "DeleteQuestion": "\EE4F",
+  "Timer": "\EE60",
+  "TimerOff": "\EE61",
+  "TimerClose": "\EE62",
+  "TimerCheck": "\EE63",
+  "TimerAdd": "\EE64",
+  "TimerRemove": "\EE65",
+  "TimerMore": "\EE67",
+  "TimerPlay": "\EE6A",
+  "TimerStop": "\EE6B",
+  "TimerPause": "\EE6C",
+  "TimerInfo": "\EE6D",
+  "TimerWarning": "\EE6E",
+  "TimerQuestion": "\EE6F",
+  "Chat2": "\EE80",
+  "Chat2Close": "\EE82",
+  "Chat2Check": "\EE83",
+  "Chat2Add": "\EE84",
+  "Chat2Remove": "\EE85",
+  "Chat2Note": "\EE86",
+  "Chat2More": "\EE87",
+  "Chat2Play": "\EE8A",
+  "Chat2Stop": "\EE8B",
+  "Chat2Pause": "\EE8C",
+  "Chat2Info": "\EE8D",
+  "Chat2Warning": "\EE8E",
+  "Chat2Question": "\EE8F",
+  "Shield": "\EEA0",
+  "ShieldOff": "\EEA1",
+  "ShieldClose": "\EEA2",
+  "ShieldCheck": "\EEA3",
+  "ShieldAdd": "\EEA4",
+  "ShieldRemove": "\EEA5",
+  "ShieldNote": "\EEA6",
+  "ShieldMore": "\EEA7",
+  "ShieldPlay": "\EEAA",
+  "ShieldStop": "\EEAB",
+  "ShieldPause": "\EEAC",
+  "ShieldInfo": "\EEAD",
+  "ShieldWarning": "\EEAE",
+  "ShieldQuestion": "\EEAF",
+  "Memo": "\EEC0",
+  "MemoClose": "\EEC2",
+  "MemoCheck": "\EEC3",
+  "MemoAdd": "\EEC4",
+  "MemoRemove": "\EEC5",
+  "MemoNote": "\EEC6",
+  "MemoMore": "\EEC7",
+  "MemoPlay": "\EECA",
+  "MemoStop": "\EECB",
+  "MemoPause": "\EECC",
+  "MemoInfo": "\EECD",
+  "MemoWarning": "\EECE",
+  "MemoQuestion": "\EECF",
+  "Folder": "\EEE0",
+  "FolderClose": "\EEE2",
+  "FolderCheck": "\EEE3",
+  "FolderAdd": "\EEE4",
+  "FolderRemove": "\EEE5",
+  "FolderNote": "\EEE6",
+  "FolderMore": "\EEE7",
+  "FolderPlay": "\EEEA",
+  "FolderStop": "\EEEB",
+  "FolderPause": "\EEEC",
+  "FolderInfo": "\EEED",
+  "FolderWarning": "\EEEE",
+  "FolderQuestion": "\EEEF",
+  "Coupon": "\EF00",
+  "CouponClose": "\EF02",
+  "CouponCheck": "\EF03",
+  "CouponAdd": "\EF04",
+  "CouponRemove": "\EF05",
+  "CouponNote": "\EF06",
+  "CouponMore": "\EF07",
+  "CouponPlay": "\EF0A",
+  "CouponStop": "\EF0B",
+  "CouponPause": "\EF0C",
+  "CouponInfo": "\EF0D",
+  "CouponWarning": "\EF0E",
+  "CouponQuestion": "\EF0F",
+  "Person": "\EF20",
+  "PersonClose": "\EF22",
+  "PersonCheck": "\EF23",
+  "PersonAdd": "\EF24",
+  "PersonRemove": "\EF25",
+  "PersonCircle": "\EF28",
+  "PersonSquare": "\EF29",
+  "Notifications": "\EF40",
+  "NotificationsOff": "\EF41",
+  "NotificationsClose": "\EF42",
+  "NotificationsCheck": "\EF43",
+  "NotificationsAdd": "\EF44",
+  "NotificationsRemove": "\EF45",
+  "NotificationsPlay": "\EF4A",
+  "NotificationsStop": "\EF4B",
+  "NotificationsPause": "\EF4C",
+  "NotificationsInfo": "\EF4D",
+  "NotificationsWarning": "\EF4E",
+  "NotificationsQuestion": "\EF4F",
+  "Alarm": "\EF60",
+  "AlarmOff": "\EF61",
+  "AlarmClose": "\EF62",
+  "AlarmCheck": "\EF63",
+  "AlarmAdd": "\EF64",
+  "AlarmRemove": "\EF65",
+  "AlarmMore": "\EF67",
+  "AlarmPlay": "\EF6A",
+  "AlarmStop": "\EF6B",
+  "AlarmPause": "\EF6C",
+  "AlarmInfo": "\EF6D",
+  "AlarmWarning": "\EF6E",
+  "AlarmQuestion": "\EF6F",
+  "Chat": "\EF80",
+  "ChatClose": "\EF82",
+  "ChatCheck": "\EF83",
+  "ChatAdd": "\EF84",
+  "ChatRemove": "\EF85",
+  "ChatNote": "\EF86",
+  "ChatMore": "\EF87",
+  "ChatPlay": "\EF88",
+  "ChatStop": "\EF8B",
+  "ChatPause": "\EF8C",
+  "ChatInfo": "\EF8D",
+  "ChatWarning": "\EF8E",
+  "ChatQuestion": "\EF8F",
+  "Location": "\EFA0",
+  "LocationOff": "\EFA1",
+  "LocationClose": "\EFA2",
+  "LocationCheck": "\EFA3",
+  "LocationAdd": "\EFA4",
+  "LocationRemove": "\EFA5",
+  "LocationMore": "\EFA7",
+  "LocationPlay": "\EFAA",
+  "LocationStop": "\EFAB",
+  "LocationPause": "\EFAC",
+  "LocationInfo": "\EFAD",
+  "LocationWarning": "\EFAE",
+  "LocationQuestion": "\EFAF",
+  "Inventory": "\EFC0",
+  "InventoryClose": "\EFC2",
+  "InventoryCheck": "\EFC3",
+  "InventoryAdd": "\EFC4",
+  "InventoryRemove": "\EFC5",
+  "InventoryNote": "\EFC6",
+  "InventoryMore": "\EFC7",
+  "InventoryPlay": "\EFCA",
+  "InventoryStop": "\EFCB",
+  "InventoryPause": "\EFCC",
+  "InventoryInfo": "\EFCD",
+  "InventoryWarning": "\EFCE",
+  "InventoryQuestion": "\EFCF",
+  "File": "\EFE0",
+  "FileClose": "\EFE2",
+  "FileCheck": "\EFE3",
+  "FileAdd": "\EFE4",
+  "FileRemove": "\EFE5",
+  "FileNote": "\EFE6",
+  "FileMore": "\EFE7",
+  "FilePlay": "\EFEA",
+  "FileStop": "\EFEB",
+  "FilePause": "\EFEC",
+  "FileInfo": "\EFED",
+  "FileWarning": "\EFEE",
+  "FileQuestion": "\EFEF",
+  "Stamp": "\F000",
+  "StampClose": "\F002",
+  "StampCheck": "\F003",
+  "StampAdd": "\F004",
+  "StampRemove": "\F005",
+  "StampNote": "\F006",
+  "StampMore": "\F007",
+  "StampPlay": "\F00A",
+  "StampStop": "\F00B",
+  "StampPause": "\F00C",
+  "StampInfo": "\F00D",
+  "StampWarning": "\F00E",
+  "StampQuestion": "\F00F",
+  "Bookmark": "\F020",
+  "BookmarkClose": "\F022",
+  "BookmarkCheck": "\F023",
+  "BookmarkAdd": "\F024",
+  "BookmarkRemove": "\F025",
+  "BookmarkNote": "\F026",
+  "BookmarkMore": "\F027",
+  "BookmarkPlay": "\F02A",
+  "BookmarkStop": "\F02B",
+  "BookmarkPause": "\F02C",
+  "BookmarkInfo": "\F02D",
+  "BookmarkWarning": "\F02E",
+  "BookmarkQuestion": "\F02F",
+  "BrandPlaystore": "\F8E0",
+  "BrandAppstore": "\F8E1",
+  "BrandSlack": "\F8E2",
+  "BrandSnapchat": "\F8E3",
+  "BrandMessenger": "\F8E4",
+  "BrandAmazon": "\F8E5",
+  "BrandBehance": "\F8E6",
+  "BrandAndroid": "\F8E7",
+  "BrandMicrosoft": "\F8E8",
+  "BrandDiscord": "\F8E9",
+  "BrandSpotify": "\F8EA",
+  "BrandReddit": "\F8EB",
+  "BrandMeta": "\F8EC",
+  "BrandFigma": "\F8ED",
+  "BrandTwitch": "\F8EE",
+  "BrandDribbble": "\F8EF",
+  "BrandTiktok": "\F8F0",
+  "BrandTumblr": "\F8F1",
+  "BrandSkype": "\F8F2",
+  "BrandMedium": "\F8F3",
+  "BrandGithub": "\F8F4",
+  "BrandYoutube": "\F8F5",
+  "BrandPinterest": "\F8F6",
+  "BrandLinkedin": "\F8F7",
+  "BrandNotion": "\F8F8",
+  "BrandInstagram": "\F8F9",
+  "BrandTwitter": "\F8FA",
+  "BrandGoogle": "\F8FB",
+  "BrandFacebook": "\F8FC",
+  "BrandNaver": "\F8FD",
+  "BrandKakao": "\F8FE",
+  "BrandApple": "\F8FF"
+);
+
+@each $name, $code in $icons {
+  i.i#{$name}::before {
+    content: $code;
+  }
 }
