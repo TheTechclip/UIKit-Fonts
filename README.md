@@ -15,3 +15,13 @@ UIKit 내에서 사용하는 폰트 모음입니다. 각 폰트의 출처와 라
 - `JetBrainsMono/` — JetBrains Mono
 - `MinIcon/` — Min Icon
 - `SourceHanSerifKR/` — Source Han Serif (KR)
+
+`MinIcon/MinIconVF.woff2` is the canonical Musecat MinIcon source. Product
+repositories reference this asset instead of storing a second Web WOFF2 copy.
+Musecat-specific glyph construction and Native static-face generation scripts
+live in `MinIcon/tools/`.
+
+Rebuild `iImageRotated` (U+EC3C, including the `ss09` filled alternate) with
+`python3 MinIcon/tools/extend_image_rotated.py`. Its compact arrow matches the
+image frame stroke and balances the top/left padding. The script requires
+fontTools with WOFF2/Brotli support.
