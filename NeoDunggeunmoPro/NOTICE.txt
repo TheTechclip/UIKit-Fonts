@@ -1,0 +1,5 @@
+Original font was released under the public domain by Jungtae Kim in 1990s. Conversion and additional character design by Dalgona. <me@dalgona.dev>
+
+This font software may be used, studied, modified, embedded and redistributed under the SIL Open Font License 1.1.
+
+https://scripts.sil.org/OFL

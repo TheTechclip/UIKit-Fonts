@@ -1,0 +1,9 @@
+{
+  "source": "User-supplied cpfont_tte.zip; CP Font 2.076",
+  "faces": [
+    {
+      "file": "Checkpoint/Checkpoint.woff2",
+      "weight": 400
+    }
+  ]
+}

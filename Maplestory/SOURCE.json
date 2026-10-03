@@ -1,0 +1,13 @@
+{
+  "source": "https://maplestory.nexon.com/Media/Font",
+  "faces": [
+    {
+      "file": "Maplestory/Maplestory-Bold.woff2",
+      "weight": 700
+    },
+    {
+      "file": "Maplestory/Maplestory-Light.woff2",
+      "weight": 300
+    }
+  ]
+}

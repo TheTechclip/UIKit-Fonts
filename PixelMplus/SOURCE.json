@@ -1,0 +1,13 @@
+{
+  "source": "https://github.com/itouhiro/PixelMplus",
+  "faces": [
+    {
+      "file": "PixelMplus/PixelMplus12-Bold.woff2",
+      "weight": 700
+    },
+    {
+      "file": "PixelMplus/PixelMplus12-Regular.woff2",
+      "weight": 400
+    }
+  ]
+}

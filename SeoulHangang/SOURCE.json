@@ -1,0 +1,21 @@
+{
+  "source": "https://www.seoul.go.kr/seoul/font.do",
+  "faces": [
+    {
+      "file": "SeoulHangang/SeoulHangang-Bold.woff2",
+      "weight": 700
+    },
+    {
+      "file": "SeoulHangang/SeoulHangang-ExtraBold.woff2",
+      "weight": 800
+    },
+    {
+      "file": "SeoulHangang/SeoulHangang-Light.woff2",
+      "weight": 300
+    },
+    {
+      "file": "SeoulHangang/SeoulHangang-Medium.woff2",
+      "weight": 500
+    }
+  ]
+}

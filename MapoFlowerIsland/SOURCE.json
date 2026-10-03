@@ -1,0 +1,9 @@
+{
+  "source": "https://www.mapo.go.kr/",
+  "faces": [
+    {
+      "file": "MapoFlowerIsland/MapoFlowerIsland.woff2",
+      "weight": 400
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+Original font: Fontna Light Novel POP (07LightNovelPOP).
+Original publisher: http://www.fontna.com/blog/1706/
+Webfont packaging and stated M+ Font License: https://leafscape.be/fonts/229.html
+This package preserves the downloaded WOFF2 file without glyph or name edits.

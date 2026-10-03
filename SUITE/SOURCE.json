@@ -1,0 +1,12 @@
+{
+  "source": "https://github.com/sun-typeface/SUITE",
+  "faces": [
+    {
+      "file": "SUITE/SUITE-Variable.woff2",
+      "weight": [
+        300,
+        900
+      ]
+    }
+  ]
+}

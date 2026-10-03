@@ -1,0 +1,1 @@
+The original IPAex Mincho font is included as source/ipaexm.ttf. To use the original font instead of the derivative, select/install IPAexMincho from that file. For this web package, select the default font or replace the KokuMincho web face with a WOFF2 conversion of that original. See IPA_Font_License_Agreement_v1.0.txt and original readme.txt.

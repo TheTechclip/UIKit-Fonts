@@ -1,0 +1,13 @@
+{
+  "source": "https://blog.naver.com/hp0/221843798373",
+  "faces": [
+    {
+      "file": "HSBombaram/HSBombaram-Regular.woff2",
+      "weight": 400
+    },
+    {
+      "file": "HSBombaram/HSBombaram-Thin.woff2",
+      "weight": 300
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "skyBori": {
+    "source": "https://www.wjfood.co.kr/",
+    "faces": [
+      {
+        "file": "SkyBori/SkyBori.woff2",
+        "weight": 400
+      }
+    ]
+  },
+  "mapoFlowerIsland": {
+    "source": "https://www.mapo.go.kr/",
+    "faces": [
+      {
+        "file": "MapoFlowerIsland/MapoFlowerIsland.woff2",
+        "weight": 400
+      }
+    ]
+  },
+  "hsBombaram": {
+    "source": "https://blog.naver.com/hp0/221843798373",
+    "faces": [
+      {
+        "file": "HSBombaram/HSBombaram-Regular.woff2",
+        "weight": 400
+      },
+      {
+        "file": "HSBombaram/HSBombaram-Thin.woff2",
+        "weight": 300
+      }
+    ]
+  },
+  "seoulHangang": {
+    "source": "https://www.seoul.go.kr/seoul/font.do",
+    "faces": [
+      {
+        "file": "SeoulHangang/SeoulHangang-Bold.woff2",
+        "weight": 700
+      },
+      {
+        "file": "SeoulHangang/SeoulHangang-ExtraBold.woff2",
+        "weight": 800
+      },
+      {
+        "file": "SeoulHangang/SeoulHangang-Light.woff2",
+        "weight": 300
+      },
+      {
+        "file": "SeoulHangang/SeoulHangang-Medium.woff2",
+        "weight": 500
+      }
+    ]
+  },
+  "nanumSquareNeo": {
+    "source": "https://hangeul.pstatic.net/hangeul_static/css/nanum-square-neo.css",
+    "faces": [
+      {
+        "file": "NanumSquareNeo/NanumSquareNeo-Variable.woff2",
+        "weight": [
+          100.0,
+          900.0
+        ]
+      }
+    ]
+  },
+  "neoDunggeunmoPro": {
+    "source": "https://github.com/neodgm/neodgm-pro-webfont",
+    "faces": [
+      {
+        "file": "NeoDunggeunmoPro/NeoDunggeunmoPro.woff2",
+        "weight": 400
+      }
+    ]
+  },
+  "suite": {
+    "source": "https://github.com/sun-typeface/SUITE",
+    "faces": [
+      {
+        "file": "SUITE/SUITE-Variable.woff2",
+        "weight": [
+          300,
+          900
+        ]
+      }
+    ]
+  },
+  "maplestory": {
+    "source": "https://maplestory.nexon.com/Media/Font",
+    "faces": [
+      {
+        "file": "Maplestory/Maplestory-Bold.woff2",
+        "weight": 700
+      },
+      {
+        "file": "Maplestory/Maplestory-Light.woff2",
+        "weight": 300
+      }
+    ]
+  },
+  "pixelMplus": {
+    "source": "https://github.com/itouhiro/PixelMplus",
+    "faces": [
+      {
+        "file": "PixelMplus/PixelMplus12-Bold.woff2",
+        "weight": 700
+      },
+      {
+        "file": "PixelMplus/PixelMplus12-Regular.woff2",
+        "weight": 400
+      }
+    ]
+  },
+  "kokuMincho": {
+    "source": "https://freefonts.jp/font-koku-min.html",
+    "faces": [
+      {
+        "file": "KokuMincho/KokuMincho.woff2",
+        "weight": 400
+      }
+    ]
+  },
+  "checkpoint": {
+    "source": "User-supplied cpfont_tte.zip; CP Font 2.076",
+    "faces": [
+      {
+        "file": "Checkpoint/Checkpoint.woff2",
+        "weight": 400
+      }
+    ]
+  },
+  "lightNovelPop": {
+    "source": "https://leafscape.be/fonts/229.html",
+    "faces": [
+      {
+        "file": "LightNovelPOP/LightNovelPOP.woff2",
+        "weight": 400
+      }
+    ]
+  }
+}
